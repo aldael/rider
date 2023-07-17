@@ -20,7 +20,6 @@ public class Rider {
     private String rider;
     private String identidad;
     private String armor;
-    private boolean fav;
     private String serie;
 
     @ManyToMany

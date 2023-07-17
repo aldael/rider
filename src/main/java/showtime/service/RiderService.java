@@ -61,7 +61,6 @@ public class RiderService {
         r.setProgramas(raidaa.getProgramas());
         r.setArmor(raidaa.getArmor());
         r.setSerie(raidaa.getSerie());
-        r.setFav(raidaa.isFav());
         rr.save(r);
         return ResponseEntity.status(OK).build();
     }
